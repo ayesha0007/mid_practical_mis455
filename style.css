@@ -305,3 +305,39 @@ input{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.polar-chart {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: conic-gradient(
+        rgba(255, 99, 132, 0.8) 0% 50%,        /* Red: 20% */
+        rgba(75, 192, 192, 0.8) 20% 45%,       /* Green: 25% */
+        rgba(54, 162, 235, 0.8) 45% 65%,       /* Blue: 20% */
+        rgba(255, 206, 86, 0.8) 65% 85%,       /* Yellow: 20% */
+        rgba(153, 102, 255, 0.8) 85% 100%      /* Purple: 15% */
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+ /* Inner circle for a donut effect */
+ .polar-chart::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/* Center label */
+.chart-label {
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
