@@ -1,0 +1,266 @@
+ody{background-color: #dff2f9;}
+ul{
+    cursor: pointer;
+}
+.newNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    color: #166484;
+    background-color: #dff2f9;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+
+}
+
+.leftnav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 80px; 
+    
+}
+.dropdown{
+    color: #166484;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+button{
+    border: none;
+    background-color: #166484;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+.bgheader{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+}
+
+/* sectionOne Style */
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.imgOne{
+    position: relative;
+
+}
+.imgTwo{
+    position: absolute;
+    left: 300px;
+    top: 1300px;
+}
+.sectionOne{
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+  
+}
+.secOnepara{
+    width: 800px;
+}
+.heading{
+    color: #166484;
+    font-style: calc();
+    font-size: 30px;
+}
+.para{
+    font-style: oblique;
+}
+
+/* section two */
+.secTwo{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+   text-align: center;
+}
+.card{
+    background-color: #ffffff;
+    width: 440px;
+    border-radius: 8px;
+}
+.cardContainer{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.card:hover{
+    transform: translateY(-20px);
+    background-image: linear-gradient(to right, #999999, #454545);
+}
+/* img hover */
+
+/* section three */
+.cardSec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    
+}
+#btnId{
+    width: 200px;
+    background-color: transparent;
+    border-style: double;
+    border-color: #166484;
+    color: #166484;
+}
+
+/* -------------------------------------------------- SERVE PAGE -----------------------------------------------*/
+.serveHeading{
+    display: flex;
+    justify-content: space-between;
+}
+#servepara{
+    background-color: #166484;
+    width: 700px;
+    height: 50px;
+    align-content: center;
+    border-radius: 30px;
+    color: #DFF2F9;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#serveHead{
+    color: #166484;
+    font-size: 20px;
+
+}
+.serveUl{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin-left: 200px; */
+    gap: 100px;
+   
+    
+    
+}
+.newUL{
+    background-color: #166484;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    /* border-radius: 30px; */
+    color: #DFF2F9;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    border-style:solid ;
+    font-size: 30px;
+ 
+}
+.serveContainer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+
+}
+.link{
+    text-decoration: none;
+    color:inherit ;
+}
+
+/* --------------------------------Contact-------------------- */
+.contactContainer{
+    display: flex;
+}
+.profileClass{
+    margin-top: 150px;
+}
+
+/* -----------------------BLOG------------------------ */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .blogImg:hover{
+    transform: translateY(-20px);
+    background-image: linear-gradient(to right, #999999, #454545);
+    transform: scale(1.5);
+  }
+
+  /* ------------LOG IN------- */
+  .loginMain{
+    display: flex;
+    justify-content: space-around;
+  }
+  .loginUser{
+    display: grid;
+  }
+  label{
+    color: #166484;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+input{
+    width: 500px;
+    border-radius: 20px;
+}
