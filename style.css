@@ -1,4 +1,4 @@
-ody{background-color: #dff2f9;}
+body{background-color: #eccfab;}
 ul{
     cursor: pointer;
 }
@@ -6,8 +6,8 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center ;
-    color: #166484;
-    background-color: #dff2f9;
+    color: orangered;
+    background-color: eccfab;
     font-size: 20px;
     font-weight: bold;
     
@@ -23,6 +23,7 @@ ul{
 .leftnav{
     display: flex;
     align-items: center;
+    margin-left: 35%;
 }
 
 .logo{
@@ -30,7 +31,7 @@ ul{
     
 }
 .dropdown{
-    color: #166484;
+    color: orangered;
     height: 30px;
     border: none;
     font-size: 17px;
@@ -39,14 +40,22 @@ ul{
     cursor: pointer;
     
 }
-
+ul:hover{
+    color: #999999;
+    transform: translateY(-5px);
+}
+.dropdown:hover{
+    color: #999999;
+}
 button{
-    border: none;
-    background-color: #166484;
+    background-color: #eccfab;
+    border-color: orangered;
     border-radius: 10px;
     height: 40px;
     width: 80px;
     cursor: pointer;
+    font-weight: bold;
+    color: orangered;
 }
 
 .container{
@@ -141,7 +150,22 @@ main{
     border-color: #166484;
     color: #166484;
 }
-
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    color: orangered;
+    height: 200px;
+   
+}
+.footer_one{
+    display: flex;
+    align-items: center;
+}
+.footer_two{
+    display: flex;
+    align-items: center;
+}
 /* -------------------------------------------------- SERVE PAGE -----------------------------------------------*/
 .serveHeading{
     display: flex;
@@ -193,7 +217,7 @@ main{
 }
 .link{
     text-decoration: none;
-    color:inherit ;
+    color: inherit ;
 }
 
 /* --------------------------------Contact-------------------- */
