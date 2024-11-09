@@ -288,3 +288,16 @@ input{
     width: 500px;
     border-radius: 20px;
 }
+
+
+/* Store card */
+.storeCard{
+    width: 405px;
+    height: 400px;
+    border-style: dotted;
+}
+.storeContainer{
+    display: grid;
+    text-align: center;
+    color: orangered;
+}
